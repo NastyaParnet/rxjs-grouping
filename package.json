@@ -1,0 +1,24 @@
+{
+  "name": "rxjs-grouping-solution",
+  "version": "1.0.0",
+  "description": "rxjs task",
+  "main": "rx-http-request.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node main"
+  },
+  "author": "natalya revutska",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^7.8.1",
+    "xhr2": "^0.2.1"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      "node_modules/(?!(spacetime)/)"
+    ]
+  }
+}
